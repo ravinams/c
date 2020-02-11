@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>Analyser.h</itemPath>
+      <itemPath>Channel.h</itemPath>
+      <itemPath>Clock.h</itemPath>
+      <itemPath>Signal.h</itemPath>
+      <itemPath>bucket-sort.h</itemPath>
+      <itemPath>ece2400-stdlib.h</itemPath>
+      <itemPath>merge-sort.h</itemPath>
+      <itemPath>quick-sort.h</itemPath>
+      <itemPath>selection-sort.h</itemPath>
+      <itemPath>vector.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>bucket-sort.c</itemPath>
+      <itemPath>ece2400-stdlib.c</itemPath>
+      <itemPath>main.c</itemPath>
+      <itemPath>merge-sort.c</itemPath>
+      <itemPath>quick-sort.c</itemPath>
+      <itemPath>selection-sort.c</itemPath>
+      <itemPath>vector.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <commandLine>-std=c99</commandLine>
+        </cTool>
+      </compileType>
+      <item path="Analyser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Channel.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Clock.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Signal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="bucket-sort.c" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="bucket-sort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ece2400-stdlib.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ece2400-stdlib.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="merge-sort.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="merge-sort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="quick-sort.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="quick-sort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="selection-sort.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="selection-sort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="vector.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="vector.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="Analyser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Channel.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Clock.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Signal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="bucket-sort.c" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="bucket-sort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ece2400-stdlib.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ece2400-stdlib.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="merge-sort.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="merge-sort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="quick-sort.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="quick-sort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="selection-sort.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="selection-sort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="vector.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="vector.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
